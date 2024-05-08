@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>  
+<meta charset="ISO-8859-1">  
+<title>Insert title here</title>  
+<style type="text/css">
+ body {
+        background-color: green;
+        height: 18cm; 
+    }
+ 
+    </style>
+</head>
+<body>
+	<div>
+		<h1 align="center">Add New Employee</h1>
+
+		<form action="SaveServlet" method="post">
+			<table align="center">
+				<tr>
+					<td>EmpID:</td>
+					<td><input type="text" name="empid" /></td>
+				</tr>
+				<tr>
+					<td>Name:</td>
+					<td><input type="text" name="name" /></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input type="text" name="email" /></td>
+				</tr>
+				<tr>
+					<td>Number:</td>
+					<td><input type="number" name="num" /></td>
+				</tr>
+				<tr>
+					<td>Location:</td>
+					<td><input type="text" name="location" /></td>
+				</tr>
+				<tr>
+					<td>Joining Date:</td>
+					<td><input type="date" name="date" /></td>
+				</tr>
+				<tr>
+					<td>Batch:</td>
+					<td><input type="text" name="batch" /></td>
+				</tr>
+				<tr>
+				<tr>
+					<td><input type="submit" value="Save Employee" /></td>
+				</tr>
+			</table>
+		</form>
+
+		<br />
+		<h2 align="center">
+			<a href="ViewServlet">view employees</a>
+		</h2>
+	</div>
+</body>
+</html>

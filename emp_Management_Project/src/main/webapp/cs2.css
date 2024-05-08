@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+*{ 
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+
+header {
+  padding: 60px;
+  text-align: center;
+  background-color: lightgray;
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+footer{
+	text-align: center;
+	background-color: #fff;
+	color: black;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
